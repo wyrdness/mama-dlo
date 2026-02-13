@@ -1,10 +1,8 @@
 {
-  "category": "ENTITY_SPIRIT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/mama-dlo",
     "maintainers": [
       {
@@ -18,680 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "mama-dlo",
-    "name": "Mama Dlo",
-    "aliases": [
-      {
-        "name": "Mama D'Leau",
-        "language": "French Creole",
-        "region": "Trinidad and Tobago",
-        "meaning": "Mother of Water/Mother of the River"
-      },
-      {
-        "name": "Mama Dglo",
-        "language": "French Creole (variant)",
-        "region": "Trinidad and Tobago"
-      },
-      {
-        "name": "Mama Dlo",
-        "language": "French Creole (anglicized)",
-        "region": "Trinidad and Tobago"
-      },
-      {
-        "name": "Anaconda Woman",
-        "language": "English",
-        "region": "Trinidad and Tobago",
-        "meaning": "Descriptive name"
-      }
-    ],
+    "name": "Mama Dlo / Mama D'Leau",
+    "aliases": [],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Guardian Spirit",
+    "subcategory": "| Description | Status | Analysis |",
     "tags": [
-      "water-spirit",
-      "guardian",
-      "protector",
-      "hybrid-creature",
-      "serpent",
-      "caribbean",
-      "trinidad",
-      "environmental-guardian",
-      "french-creole",
-      "nature-protector"
+      "folklore",
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "A water spirit of Trinidad and Tobago folklore, appearing as a beautiful woman from the waist up with the lower body of a massive anaconda. Mama Dlo is the guardian of rivers, streams, and forest wildlife, punishing those who harm nature while showing benevolence to those who respect the water and environment.",
-      "full": "Mama Dlo (Mother of Water) is one of Trinidad and Tobago's most powerful and complex folkloric entities. She appears as a stunningly beautiful woman with long flowing hair from the waist up, but her lower body is that of a massive anaconda serpent. As the guardian and protector of Trinidad's rivers, streams, and waterways, she fiercely defends aquatic ecosystems and forest animals from harm. Mama Dlo lures and punishes men who pollute waters, overfish, harm animals, or show disrespect to nature, often drowning them or leading them to madness. However, she is not purely malevolent—she shows kindness to those who respect the environment, help injured animals, and honor traditional ecological practices. Her mythology reflects deep connections to African water spirit traditions (particularly Mami Wata), French Creole cultural heritage, and indigenous Caribbean environmental wisdom. Mama Dlo represents nature's power to both nurture and punish, embodying the principle that the environment must be respected and protected."
+      "summary": "Mama Dlo (also Mama D'Leau, from French Creole \\\"Maman de l'Eau\\\" meaning \\\"Mother of Water\\\") is one of Trinidad and Tobago's most powerful and culturally significant folkloric entities.",
+      "full": "Mama Dlo (also Mama D'Leau, from French Creole \\\"Maman de l'Eau\\\" meaning \\\"Mother of Water\\\") is one of Trinidad and Tobago's most powerful and culturally significant folkloric entities. She manifests as a stunningly beautiful woman from the waist up, with long flowing hair often adorned with water plants, but her lower body is that of a massive anaconda serpent with iridescent scales. As the guardian and protector of Trinidad's rivers, streams, waterfalls, and waterways, Mama Dlo fiercely defends aquatic ecosystems and forest wildlife from human harm. She is known to lure and punish men who pollute waters, use explosives or poison for fishing, harm animals, or show disrespect to nature—often drowning them, crushing them in her coils, or driving them to madness. However, Mama Dlo is not purely malevolent. She represents nature's dual character: she shows kindness and even blessings to those who respect the environment, help injured animals, practice sustainable resource use, and honor the sacred nature of water. Her mythology embodies the principle that nature both nurtures and punishes, demanding respect rather than exploitation. Mama Dlo's origins blend West African water spirit traditions (particularly **Mami Wata**), French Creole cultural heritage, and indigenous Caribbean environmental wisdom, creating a uniquely Trinidadian guardian figure that remains culturally relevant today, especially in environmental conservation contexts."
     },
     "etymology": {
-      "origin": "French Creole 'Maman D'Leau' or 'Maman de l'Eau', meaning 'Mother of Water' or 'Mother of the River'. The term reflects Trinidad's French colonial influence and the blending of French language with Creole expressions.",
-      "meaning": "Mother of Water—signifying her role as matriarchal protector and embodiment of aquatic ecosystems",
-      "first_use": "Pre-colonial oral traditions, with French Creole naming emerging during French colonial period (1783-1797)"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Guardian Spirit",
-      "subtype": "Water Deity",
-      "variant": "Caribbean/Trinidadian"
+      "type": "| Description | Status | Analysis |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "mami-wata",
-        "name": "Mami Wata",
-        "relationship": "cultural_ancestor",
-        "description": "West African water spirit tradition; direct ancestor to Caribbean water spirit beliefs"
-      },
-      {
-        "id": "la-diablesse",
-        "name": "La Diablesse",
-        "relationship": "regional_companion",
-        "description": "Another Trinidadian folkloric figure, more malevolent than Mama Dlo"
-      },
-      {
-        "id": "papa-bois",
-        "name": "Papa Bois",
-        "relationship": "counterpart",
-        "description": "Father of the Forest, male guardian spirit of Trinidad's forests"
-      },
-      {
-        "id": "lagahoo",
-        "name": "Lagahoo",
-        "relationship": "related",
-        "description": "Trinidadian shapeshifter, part of same folkloric tradition"
-      },
-      {
-        "id": "siren",
-        "name": "Siren/Mermaid",
-        "relationship": "similar",
-        "description": "European water spirits with seductive qualities"
-      },
-      {
-        "id": "naga",
-        "name": "Naga",
-        "relationship": "similar",
-        "description": "Asian serpent-human hybrid water spirits"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "height": {
-        "min": 1.6,
-        "max": 2.0,
-        "unit": "meters (human portion)",
-        "confidence": "medium"
-      },
-      "length": {
-        "min": 8.0,
-        "max": 15.0,
-        "unit": "meters (total with serpent body)",
-        "confidence": "medium"
-      },
-      "coloration": [
-        "Upper body: brown to dark brown skin",
-        "Hair: black, sometimes with blue or green tint",
-        "Serpent body: dark green to black with iridescent scales"
-      ],
-      "features": [
-        {
-          "feature": "Upper body",
-          "description": "Stunningly beautiful woman with flawless features, long flowing hair often decorated with water plants",
-          "frequency": "always"
-        },
-        {
-          "feature": "Lower body",
-          "description": "Massive anaconda tail, powerful and muscular, covered in iridescent scales",
-          "frequency": "always"
-        },
-        {
-          "feature": "Hair",
-          "description": "Exceptionally long, flowing, often adorned with river flowers, water lilies, or aquatic vegetation",
-          "frequency": "always"
-        },
-        {
-          "feature": "Eyes",
-          "description": "Mesmerizing, sometimes described as hypnotic or glowing with supernatural light",
-          "frequency": "common"
-        },
-        {
-          "feature": "Voice",
-          "description": "Beautiful singing voice that lures victims; can also produce hissing serpent sounds",
-          "frequency": "common"
-        },
-        {
-          "feature": "Serpent coils",
-          "description": "Incredibly strong, capable of crushing or drowning victims, but also gentle when protecting nature",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Hybrid creature: beautiful human woman from waist up seamlessly transitioning to massive anaconda from waist down. The transformation point is smooth and natural, not grotesque. Her serpent body is proportional to a large anaconda—powerful, muscular, and covered in glossy scales that shimmer in water."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shapeshifting",
-        "description": "Can fully transform into a giant anaconda or appear as a completely human woman to deceive",
-        "frequency": "common",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Hypnotic allure",
-        "description": "Her beauty and voice can mesmerize victims, making them follow her into water",
-        "frequency": "common",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Water control",
-        "description": "Can manipulate water currents, create whirlpools, summon floods",
-        "frequency": "occasional",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Animal communication",
-        "description": "Can speak with and command river animals and forest creatures",
-        "frequency": "common",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Environmental awareness",
-        "description": "Knows instantly when her domain is harmed—pollution, overfishing, animal cruelty",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Constriction",
-        "description": "Her anaconda coils can crush or drown those who violate nature",
-        "frequency": "occasional",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Benevolent healing",
-        "description": "Can heal injuries, guide lost respectful travelers, bless those who protect nature",
-        "frequency": "rare",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "any time (especially dawn/dusk near water)",
-      "disposition": "neutral-protective (benevolent to respectful, vengeful to violators)",
-      "social_structure": "solitary",
-      "habitat_preference": [
-        "rivers and streams",
-        "waterfalls",
-        "deep pools",
-        "forest waterways",
-        "mangrove swamps"
-      ],
-      "diet": "Unknown (spirit entity)",
-      "patterns": [
-        "Patrols waterways protecting aquatic life",
-        "Appears to punish polluters and poachers",
-        "Rewards those who rescue animals or clean waters",
-        "Lures disrespectful men into water to drown them",
-        "Shows mercy to genuinely repentant individuals",
-        "Protects sacred water sources",
-        "Tests humans' respect for nature"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Primarily Trinidad and Tobago, with strongest concentration in forested river areas. Some reports from other Caribbean islands with similar French Creole influence.",
-      "continents": ["North America (Caribbean)"],
-      "countries": ["Trinidad and Tobago"],
-      "regions": [
-        "Northern Range rivers",
-        "Arima Valley",
-        "Maracas waterfall area",
-        "Caroni Swamp",
-        "Forest rivers throughout Trinidad"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Arima Valley",
-        "location": {
-          "description": "Forested valley with multiple rivers",
-          "country": "Trinidad and Tobago",
-          "region": "Northern Range",
-          "coordinates": {
-            "latitude": 10.6400,
-            "longitude": -61.2833
-          }
-        },
-        "sighting_count": 50,
-        "peak_period": "ongoing",
-        "notes": "Dense forest with pristine waterways; traditional Mama Dlo territory"
-      },
-      {
-        "name": "Maracas Waterfall",
-        "location": {
-          "description": "Popular waterfall and swimming area",
-          "country": "Trinidad and Tobago",
-          "region": "Northern Range",
-          "coordinates": {
-            "latitude": 10.7500,
-            "longitude": -61.4167
-          }
-        },
-        "sighting_count": 30,
-        "peak_period": "1950s-present",
-        "notes": "Site of numerous warnings and encounters"
-      },
-      {
-        "name": "Caroni Swamp",
-        "location": {
-          "description": "Mangrove swamp and bird sanctuary",
-          "country": "Trinidad and Tobago",
-          "region": "Western Trinidad",
-          "coordinates": {
-            "latitude": 10.6667,
-            "longitude": -61.4667
-          }
-        },
-        "sighting_count": 25,
-        "peak_period": "ongoing",
-        "notes": "Rich aquatic ecosystem protected by Mama Dlo"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Pre-colonial",
+        "date": "Unknown",
         "circa": true,
-        "source": "Oral traditions predate European contact; French Creole naming emerged 1783-1797"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Pre-1900s",
-          "description": "Strong oral tradition during colonial period"
-        },
-        {
-          "period": "1950s-1980s",
-          "description": "Encounters documented by folklore collectors"
-        },
-        {
-          "period": "2000-present",
-          "description": "Revival of interest in environmental protection contexts"
-        }
-      ],
-      "seasonal_patterns": "More active during rainy season when rivers are full; also during times of environmental degradation"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Mama Dlo's origins blend African water spirit traditions (particularly Mami Wata from West Africa), French Creole linguistic influence, indigenous Caribbean environmental beliefs, and local ecological knowledge. The figure represents syncretism of multiple cultures converging in Trinidad.",
-      "earliest_accounts": "Oral traditions dating to enslaved African populations and French colonial period (1783-1797). Indigenous Carib and Arawak peoples had similar water guardian beliefs.",
-      "folklore_connections": "Connected to West African Mami Wata, European mermaid/siren legends, and indigenous Caribbean water spirits. Part of larger Trinidadian folklore tradition including Papa Bois, La Diablesse, Lagahoo, and Soucouyant."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Pre-1500s",
-        "event": "Indigenous water spirit traditions",
-        "significance": "Carib and Arawak peoples had guardian spirits of waterways before European contact",
-        "source": "Archaeological and anthropological research"
-      },
-      {
-        "date": "1500s-1700s",
-        "event": "African diaspora brings Mami Wata traditions",
-        "significance": "Enslaved West Africans brought water spirit beliefs that merged with local traditions",
-        "source": "Oral history and folklore studies"
-      },
-      {
-        "date": "1783-1797",
-        "event": "French colonial period",
-        "significance": "French Creole language establishes; 'Maman D'Leau' name emerges",
-        "source": "Colonial records and linguistic studies"
-      },
-      {
-        "date": "1800s",
-        "event": "Consolidation of folklore",
-        "significance": "Mama Dlo stories become firmly established in Trinidadian oral tradition",
-        "source": "Early folklore collections"
-      },
-      {
-        "date": "1950s-1970s",
-        "event": "Folklore documentation",
-        "significance": "Scholars begin systematically recording Trinidadian folklore including Mama Dlo",
-        "source": "Academic folklore studies"
-      },
-      {
-        "date": "1990s-present",
-        "event": "Environmental revival",
-        "significance": "Mama Dlo invoked in environmental protection movements; eco-conscious reinterpretation",
-        "source": "Contemporary cultural studies"
-      }
-    ],
-    "modern_era": "Mama Dlo remains culturally significant in Trinidad and Tobago, taught to children as a moral lesson about environmental respect. The figure has been embraced by environmental activists as a symbol of water conservation and ecological protection. Contemporary interpretations emphasize her role as a guardian rather than simply a dangerous entity."
+    "timeline": []
   },
-
-  "encounters": {
+  "sightings": {
     "statistics": {
-      "total_documented": 200,
+      "total_documented": 0,
       "verified": 0,
-      "disputed": 150,
-      "folkloric": 50,
-      "date_range": {
-        "earliest": "1800s",
-        "latest": "2025"
-      }
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "mama-dlo-encounter-1960s-fisherman",
-        "name": "The Arima River Fisherman",
-        "date": {
-          "value": "1965",
-          "precision": "approximate"
-        },
-        "location": {
-          "description": "Arima River, Northern Range",
-          "country": "Trinidad and Tobago",
-          "region": "Northern Range",
-          "coordinates": {
-            "latitude": 10.6400,
-            "longitude": -61.2833,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 1,
-          "types": ["Local fisherman"],
-          "credibility_factors": ["Experienced outdoorsman", "Known in community", "Consistent account"]
-        },
-        "description": "A fisherman was using dynamite to blast fish in the Arima River when a beautiful woman emerged from the water. As she pulled herself onto a rock, he saw her lower body was that of a massive snake. She sang to him hypnotically, and he found himself walking toward the water. A passing hunter called out, breaking the spell. When the fisherman turned back, Mama Dlo had vanished. The fisherman reportedly never fished with explosives again.",
-        "conditions": {
-          "weather": "Clear morning",
-          "visibility": "Good",
-          "time_of_day": "Early morning",
-          "duration": "Several minutes"
-        },
-        "evidence": [
-          "First-person testimony",
-          "Community corroboration",
-          "Behavioral change in witness"
-        ],
-        "credibility": {
-          "rating": "medium",
-          "factors": [
-            "Single witness but well-known in community",
-            "Consistent with traditional folklore",
-            "Witness credibility enhanced by subsequent behavior change"
-          ],
-          "notes": "Typical Mama Dlo encounter: punishment for environmental harm, mercy shown through interruption."
-        },
-        "sources": [
-          "Local folklore collection, documented by researchers in 1970s"
-        ],
-        "featured": true
-      },
-      {
-        "id": "mama-dlo-encounter-1980s-conservationist",
-        "name": "The Wildlife Rescuer's Blessing",
-        "date": {
-          "value": "1982",
-          "precision": "approximate"
-        },
-        "location": {
-          "description": "Forest stream near Maracas",
-          "country": "Trinidad and Tobago",
-          "region": "Northern Range",
-          "coordinates": {
-            "latitude": 10.7500,
-            "longitude": -61.4167,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 1,
-          "types": ["Wildlife volunteer"],
-          "credibility_factors": ["Educated witness", "Documented conservation work"]
-        },
-        "description": "A wildlife volunteer rescuing an injured manicou (opossum) from a river encountered a woman bathing in a pool. The woman praised the volunteer's kindness to animals and warned of illegal poaching upstream. When the volunteer returned with authorities, they found and arrested poachers. Returning to thank the woman, the volunteer found only unusual snake tracks leading to the water. Local elders identified the encounter as Mama Dlo showing her benevolent side.",
-        "conditions": {
-          "weather": "Afternoon, partly cloudy",
-          "visibility": "Good",
-          "time_of_day": "Afternoon",
-          "duration": "Brief conversation"
-        },
-        "evidence": [
-          "First-person testimony",
-          "Unusual tracks documented",
-          "Corroboration from arrested poachers about 'woman who saw them'"
-        ],
-        "credibility": {
-          "rating": "medium",
-          "factors": [
-            "Educated witness",
-            "Benevolent encounter rare but consistent with folklore",
-            "Physical evidence (tracks)",
-            "Independent corroboration"
-          ],
-          "notes": "Demonstrates Mama Dlo's protective and rewarding nature toward those who respect wildlife."
-        },
-        "sources": [
-          "Wildlife conservation records",
-          "Newspaper coverage of poaching arrest"
-        ],
-        "featured": true
-      }
-    ],
-    "database_path": "./encounters/"
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
   "evidence": {
-    "physical": [
-      {
-        "id": "mama-dlo-evidence-tracks",
-        "type": "tracks",
-        "name": "Serpent tracks at riverbanks",
-        "date": "Various",
-        "description": "Large serpent tracks found at riversides, far exceeding size of known Trinidad anacondas, with human handprints nearby",
-        "location": "Various Trinidad waterways",
-        "status": "disputed",
-        "analysis": "Could be large anacondas, but size exceeds known specimens",
-        "source": "Local reports"
-      }
-    ],
-    "testimonial": [
-      {
-        "id": "mama-dlo-evidence-oral-tradition",
-        "type": "oral tradition",
-        "name": "Consistent folkloric accounts",
-        "date": "1800s-present",
-        "description": "Remarkably consistent descriptions across generations and regions of Trinidad",
-        "status": "folklore",
-        "analysis": "Cultural transmission shows unusual consistency in details",
-        "source": "Folklore collections"
-      }
-    ],
-    "circumstantial": [
-      {
-        "id": "mama-dlo-evidence-behavioral-change",
-        "type": "witness behavior",
-        "name": "Changed behavior after encounters",
-        "description": "Multiple accounts of polluters/poachers stopping harmful activities after alleged encounters",
-        "status": "anecdotal",
-        "analysis": "Psychological impact or genuine supernatural experience",
-        "source": "Community records"
-      }
-    ]
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
   "theories": {
-    "folkloric": [
-      {
-        "name": "Guardian Spirit",
-        "description": "Mama Dlo is a genuine supernatural guardian of Trinidad's waterways, protecting nature from human harm",
-        "proponents": ["Traditional believers", "Some environmental activists"],
-        "evidence_cited": ["Consistent encounters", "Environmental correlation", "Cultural persistence"]
-      },
-      {
-        "name": "Mami Wata Descendant",
-        "description": "Direct spiritual descendant of West African Mami Wata, adapted to Caribbean environment",
-        "proponents": ["Africanist scholars", "Religious studies researchers"],
-        "evidence_cited": ["Cultural parallels", "African diaspora traditions", "Similar attributes"]
-      }
-    ],
-    "naturalistic": [
-      {
-        "name": "Large Anaconda Misidentification",
-        "description": "Encounters with unusually large anacondas combined with psychological expectation",
-        "proponents": ["Zoologists"],
-        "evidence_cited": ["Trinidad has anacondas", "Poor visibility in water", "Cultural priming"]
-      },
-      {
-        "name": "Psychological Phenomenon",
-        "description": "Cultural narrative manifesting as psychological experience, particularly during guilt or fear",
-        "proponents": ["Psychologists"],
-        "evidence_cited": ["Correlation with guilty actions", "Cultural transmission", "Pattern consistency"]
-      }
-    ],
-    "cultural": [
-      {
-        "name": "Environmental Moral Tale",
-        "description": "Deliberately constructed folklore to teach environmental ethics and resource conservation",
-        "proponents": ["Folklorists", "Cultural anthropologists"],
-        "evidence_cited": ["Clear moral structure", "Educational use", "Behavioral influence"]
-      },
-      {
-        "name": "Syncretic Cultural Synthesis",
-        "description": "Blending of African, European, and indigenous traditions creating unique Caribbean entity",
-        "proponents": ["Cultural historians"],
-        "evidence_cited": ["Multiple cultural elements", "French Creole linguistics", "Cross-cultural parallels"]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Teaching children to respect water sources",
-        "Warning against pollution and overfishing",
-        "Emphasizing animal welfare",
-        "Traditional offerings at sacred springs"
-      ],
-      "stories": [
-        "The Fisherman Who Learned Respect (dynamite fishing punishment)",
-        "The Boy Who Saved the Turtle (benevolent reward)",
-        "The Logger's Madness (forest destruction punishment)",
-        "The River That Remembers (ecological memory)"
-      ],
-      "beliefs": "Mama Dlo is both feared and respected. She represents nature's dual character—nurturing to those who respect it, destructive to those who abuse it. Traditional belief holds that she can be appeased through respectful behavior, traditional offerings, and environmental stewardship."
-    },
-    "indigenous": {
-      "cultures": [
-        "French Creole Trinidadians",
-        "African Trinidadian descendants",
-        "Rural Trinidad communities"
-      ],
-      "significance": "Central figure in environmental ethics education. Represents continuity of African cultural traditions in Caribbean diaspora. Symbol of resistance against environmental degradation.",
-      "sensitivity_note": "Mama Dlo represents living cultural tradition important to Trinidadian identity and African diaspora heritage. Should be approached with respect for cultural significance.",
-      "respect_guidelines": "Acknowledge African roots and cultural importance. Do not trivialize as mere superstition. Recognize environmental wisdom embedded in tradition."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Featured in Caribbean folklore collections",
-        "Children's books teaching environmental lessons",
-        "Contemporary Caribbean literature"
-      ],
-      "art": [
-        "Traditional paintings and sculptures",
-        "Carnival representations",
-        "Modern environmental art"
-      ],
-      "education": [
-        "Environmental education programs using Mama Dlo imagery",
-        "Cultural heritage preservation initiatives",
-        "Water conservation campaigns"
-      ],
-      "other": [
-        "Referenced in Trinidad and Tobago cultural festivals",
-        "Used in anti-pollution messaging",
-        "Symbol of Caribbean environmental movements"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "protection": {
-    "traditional_methods": [
-      {
-        "method": "Show respect to waterways",
-        "description": "Never pollute, always ask permission before taking water, thank the river",
-        "effectiveness": "Highly effective according to folklore"
-      },
-      {
-        "method": "Avoid harming animals",
-        "description": "Never kill unnecessarily, help injured creatures, practice sustainable fishing",
-        "effectiveness": "Core requirement for safety"
-      },
-      {
-        "method": "Traditional offerings",
-        "description": "Leave flowers, fruits, or honey at river sources (non-polluting offerings only)",
-        "effectiveness": "Shows respect and good intentions"
-      },
-      {
-        "method": "Travel in groups near water",
-        "description": "Mama Dlo rarely confronts groups, preferring solitary violators",
-        "effectiveness": "Practical deterrent"
-      },
-      {
-        "method": "Avoid calling her name carelessly",
-        "description": "Saying 'Mama Dlo' at water's edge may summon her attention",
-        "effectiveness": "Preventative"
-      }
-    ],
-    "warnings": [
-      "Do not dynamite or poison fish",
-      "Do not dump waste in rivers",
-      "Do not harm river animals",
-      "Do not take more than you need",
-      "Do not disrespect water sources",
-      "If you encounter a beautiful woman alone at the riverside, be respectful and leave quickly"
-    ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "environmental_significance": {
-    "ecosystem_role": "Symbolic guardian of Trinidad's freshwater ecosystems and biodiversity",
-    "conservation_value": "Used effectively in environmental education and water conservation campaigns",
-    "threatened_habitats": [
-      "Trinidad's rivers face pollution from development",
-      "Deforestation threatens watershed integrity",
-      "Overfishing depletes aquatic populations"
-    ],
-    "modern_relevance": "Mama Dlo legend reinforces environmental ethics in face of climate change and habitat destruction. Represents indigenous/traditional ecological knowledge valuable for modern conservation."
-  },
-
-  "sources": [
-    {
-      "id": "herskovits-1947",
-      "type": "book",
-      "title": "Trinidad Village",
-      "authors": ["Melville J. Herskovits", "Frances S. Herskovits"],
-      "publication": "Alfred A. Knopf",
-      "date": "1947"
-    },
-    {
-      "id": "anthony-1997",
-      "type": "book",
-      "title": "Folk Stories and Fables of Trinidad and Tobago",
-      "authors": ["Michael Anthony"],
-      "publication": "Circle Press",
-      "date": "1997"
-    },
-    {
-      "id": "hucks-2012",
-      "type": "article",
-      "title": "Mami Wata and the Caribbean: Creolization and the Question of Origins",
-      "authors": ["Tracey E. Hucks"],
-      "publication": "Journal of Africana Religions",
-      "date": "2012"
-    }
-  ]
+  "sources": []
 }
