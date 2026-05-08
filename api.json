@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/mama-dlo",
     "maintainers": [
       {
@@ -16,72 +16,126 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "mama-dlo",
-    "name": "Mama Dlo / Mama D'Leau",
-    "aliases": [],
+    "name": "Mama Dlo",
+    "aliases": [
+      { "name": "Mama D'Leau", "language": "French Creole", "region": "Trinidad and Tobago", "meaning": "Mother of the Water" },
+      { "name": "Mama Glo", "language": "English Creole", "region": "Trinidad and Tobago" },
+      { "name": "Maman de l'Eau", "language": "French", "meaning": "Mother of the Water" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "| Description | Status | Analysis |",
+    "subcategory": "Water guardian / serpent-woman hybrid",
     "tags": [
+      "water-spirit",
+      "guardian",
+      "serpent",
+      "caribbean",
       "folklore",
-      "mythology"
+      "trinidad-and-tobago",
+      "afro-caribbean"
     ],
     "status": "documented",
     "description": {
-      "summary": "Mama Dlo (also Mama D'Leau, from French Creole \\\"Maman de l'Eau\\\" meaning \\\"Mother of Water\\\") is one of Trinidad and Tobago's most powerful and culturally significant folkloric entities.",
-      "full": "Mama Dlo (also Mama D'Leau, from French Creole \\\"Maman de l'Eau\\\" meaning \\\"Mother of Water\\\") is one of Trinidad and Tobago's most powerful and culturally significant folkloric entities. She manifests as a stunningly beautiful woman from the waist up, with long flowing hair often adorned with water plants, but her lower body is that of a massive anaconda serpent with iridescent scales. As the guardian and protector of Trinidad's rivers, streams, waterfalls, and waterways, Mama Dlo fiercely defends aquatic ecosystems and forest wildlife from human harm. She is known to lure and punish men who pollute waters, use explosives or poison for fishing, harm animals, or show disrespect to nature—often drowning them, crushing them in her coils, or driving them to madness. However, Mama Dlo is not purely malevolent. She represents nature's dual character: she shows kindness and even blessings to those who respect the environment, help injured animals, practice sustainable resource use, and honor the sacred nature of water. Her mythology embodies the principle that nature both nurtures and punishes, demanding respect rather than exploitation. Mama Dlo's origins blend West African water spirit traditions (particularly **Mami Wata**), French Creole cultural heritage, and indigenous Caribbean environmental wisdom, creating a uniquely Trinidadian guardian figure that remains culturally relevant today, especially in environmental conservation contexts."
+      "summary": "A Caribbean water guardian spirit, particularly prominent in Trinidad and Tobago, depicted as a beautiful woman from the waist up with the lower body of a great snake. She protects rivers, streams, and the animals that live in them.",
+      "full": "Mama Dlo (also Mama D'Leau or Mama Glo) is a folkloric water spirit of the southern Caribbean, especially associated with Trinidad and Tobago, but also with Saint Lucia and Dominica. Her name comes from French Creole 'Maman de l'Eau' — 'Mother of the Water'. She is described as a beautiful woman from the waist up, with long hair that she combs with a golden comb, and a forked tongue; from the waist down her body twists into the coils of a great snake. She functions as a protector and healer of rivers, streams, and the animals that live in them, and is said to punish those who pollute the waters, hunt out of season, or otherwise abuse the natural world. Her tradition draws on West African water-spirit complexes (notably Mami Wata), French Creole and Indigenous Caribbean elements, and she is sometimes paired in oral tradition with the forest guardian Papa Bois."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "French Creole 'Maman de l'Eau' ('Mother of the Water'), reflecting the French-Creole strata of Trinidadian and wider Lesser Antillean folklore.",
+      "meaning": "'Mother of the Water' — a guardian spirit of fresh water, particularly rivers and streams.",
+      "first_use": "Recorded in Caribbean folklore collections from the 20th century; oral tradition is older."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "| Description | Status | Analysis |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Water guardian spirit",
+      "subtype": "Serpent-woman hybrid",
+      "variant": "Trinidadian / Lesser Antillean"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "mami-wata", "name": "Mami Wata", "relationship": "related", "description": "West African water spirit complex from which Caribbean water mothers partly derive" },
+      { "id": "iara", "name": "Iara", "relationship": "similar", "description": "Brazilian water-spirit woman of Tupi-Guarani tradition" },
+      { "id": "madre-de-aguas", "name": "Madre de Aguas", "relationship": "similar", "description": "Cuban water-spirit serpent" },
+      { "id": "papa-bois", "name": "Papa Bois", "relationship": "counterpart", "description": "Trinidadian forest guardian, sometimes paired with Mama Dlo in oral tradition" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["dark hair", "iridescent / serpentine lower body"],
+      "features": [
+        { "feature": "Beautiful upper body of a woman", "description": "Long-haired woman from the waist up", "frequency": "always" },
+        { "feature": "Serpent lower body", "description": "From the waist down her body twists into the coils of a great snake", "frequency": "always" },
+        { "feature": "Forked tongue", "description": "Snake-like forked tongue", "frequency": "common" },
+        { "feature": "Golden comb", "description": "Carries a golden comb that she draws through her long hair", "frequency": "common" }
+      ],
+      "morphology": "Composite serpent-woman: human female torso joined to a large snake's body, often described as anaconda-like."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Guardianship of fresh water", "description": "Protects rivers, streams, and pools, and the creatures that live in them", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Punishment of polluters and hunters", "description": "Said to lure, drown, or otherwise punish those who poison fish, dynamite rivers, hunt wantonly, or pollute waters", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Healing of river animals", "description": "Cares for and heals the animals of the rivers she presides over", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["rivers", "streams", "freshwater pools", "tropical forest waterways"],
+      "diet": "Not specified in tradition",
+      "patterns": [
+        "Encountered at remote river bends and pools",
+        "Often seen combing her hair on a rock",
+        "Aggressive toward those who harm rivers or wildlife; benign or helpful to those who show respect"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Folkloric tradition of the southern Caribbean, particularly Trinidad and Tobago, with related figures in Saint Lucia and Dominica.",
+      "continents": ["North America", "South America"],
+      "countries": ["Trinidad and Tobago", "Saint Lucia", "Dominica"],
+      "regions": ["Lesser Antilles", "Caribbean"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Trinidad rivers and forests",
+        "location": {
+          "description": "Inland rivers, streams, and forested waterways of Trinidad",
+          "country": "Trinidad and Tobago",
+          "region": "Trinidad"
+        },
+        "peak_period": "20th century to present",
+        "notes": "Heart of the Mama Dlo tradition; figure cited in environmental and folkloric education."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "20th century",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Caribbean folklore collections; oral tradition older"
+      },
+      "peak_activity_periods": [
+        { "period": "Late 20th century to present", "description": "Mama Dlo features prominently in published Trinidadian folklore collections, school curricula, and environmental storytelling." }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Trinidadian Creole folklore drawing on West African water-spirit traditions (notably Mami Wata), French and French-Creole storytelling, and Indigenous Caribbean elements.",
+      "earliest_accounts": "Oral tradition; entered the published record through 20th-century collections of Trinidadian folklore.",
+      "folklore_connections": "Part of a broad New World water-mother complex that includes Mami Wata (West Africa), Iara (Brazil), and Madre de Aguas (Cuba)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "20th century", "event": "Mama Dlo enters the published folklore record through Trinidadian and wider Caribbean folklore collections", "significance": "Establishes her as a named Caribbean folk figure", "source": "Caribbean folklore literature" }
+    ],
+    "modern_era": "Mama Dlo is widely cited in Trinidadian environmental education and children's literature as a guardian of rivers and forests, and remains an active figure in cultural performance, festival, and ecological storytelling."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +146,90 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Caribbean water spirit",
+        "description": "Mama Dlo is a genuine guardian spirit of fresh water, descended from West African Mami Wata traditions and adapted in the Caribbean.",
+        "proponents": ["Caribbean folk tradition"],
+        "evidence_cited": ["Continuity of oral tradition across generations", "Parallels with Mami Wata and other water-mother figures"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Folkloric / didactic figure",
+        "description": "Mama Dlo is a teaching figure of Trinidadian folklore: a personification used to enforce respect for rivers, fish stocks, and forest ecology, rather than a creature of zoological reality.",
+        "proponents": ["Folklorists of the Caribbean"],
+        "evidence_cited": ["Clear didactic structure of the tales", "Consistent moralizing framing in collected versions"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Trinidadian Creole folktales of forest and river guardians",
+        "French-Creole storytelling traditions of the Lesser Antilles"
+      ],
+      "stories": [
+        "Tales of fishermen punished for poisoning rivers",
+        "Encounters with a beautiful woman combing her hair at a riverside pool"
+      ],
+      "beliefs": "Within Trinidadian folk tradition, Mama Dlo is treated as a real and powerful guardian of fresh water; respect for rivers and the creatures within them is owed to her."
+    },
+    "indigenous": {
+      "cultures": [],
+      "significance": "Mama Dlo's tradition is rooted in Afro-Caribbean Creole culture; she is not specifically an Indigenous Caribbean figure, though she shares motifs with broader water-mother traditions.",
+      "sensitivity_note": "Treat Mama Dlo as a living folk figure of Trinidad and Tobago; do not flatten her into a generic 'mermaid' or detach her from her Afro-Caribbean and French-Creole context.",
+      "respect_guidelines": "Cite Caribbean sources where possible; preserve the connection to Mami Wata and to Trinidadian environmental ethics."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Trinidadian folklore collections featuring Mama Dlo / Mama D'Leau",
+        "Hans E. A. Boos, The Snakes of Trinidad and Tobago (2001)"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Often depicted alongside Papa Bois in Trinidadian cultural performance, Carnival mas, and educational material"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Mama Dlo is studied within Caribbean folklore, gender studies, and environmental humanities rather than as a cryptozoological subject."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-mama-dleau",
+      "type": "website",
+      "title": "Mama D'Leau",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mama_D%27Leau",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "boos-2001",
+      "type": "book",
+      "title": "The Snakes of Trinidad and Tobago",
+      "authors": ["Hans E. A. Boos"],
+      "publication": "Texas A&M University Press",
+      "date": "2001"
+    }
+  ]
 }
